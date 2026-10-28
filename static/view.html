@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>学生能力画像</title>
+<link rel="stylesheet" href="/static/css/app.css">
+<style>
+  body { background: #eef2f8; min-height: 100vh; display: flex; flex-direction: column; align-items: center; padding: 32px 16px; }
+  .view-card { max-width: 640px; width: 100%; }
+  .view-head { display: flex; align-items: center; gap: 12px; margin-bottom: 18px; }
+  .view-head .logo { width: 40px; height: 40px; }
+  .view-head h1 { font-size: 18px; color: #0f2557; margin: 0; }
+  .view-head p { margin: 2px 0 0; font-size: 12px; color: #8a99ab; }
+  .profile-head { display: flex; gap: 18px; flex-wrap: wrap; align-items: center; }
+  #radar-box { width: 320px; height: 270px; flex-shrink: 0; }
+  .foot-note { margin-top: 18px; text-align: center; color: #8a99ab; font-size: 12px; }
+  .badge-s,.badge-a,.badge-b,.badge-c { display: inline-block; min-width: 24px; text-align: center; padding: 2px 8px; border-radius: 999px; font-size: 12px; font-weight: 700; }
+</style>
+</head>
+<body>
+  <div class="view-card">
+    <div class="view-head">
+      <img class="logo" src="/static/assets/logo.svg" alt="logo">
+      <div>
+        <h1>学生能力画像</h1>
+        <p>轻量化 AI 驱动校园人才快速筛选系统 · 学生自助查看</p>
+      </div>
+    </div>
+    <div class="card" id="view-body">
+      <div class="loading"><span class="spinner"></span>正在加载画像…</div>
+    </div>
+    <div class="foot-note">本页为只读分享视图，数据来自系统脱敏画像，姓名/学号已隐藏。</div>
+  </div>
+<script src="/static/lib/echarts.min.js"></script>
+<script>
+(function () {
+  'use strict';
+  const token = new URLSearchParams(location.search).get('t');
+  const body = document.getElementById('view-body');
+  const esc = function (s) {
+    if (s === null || s === undefined) return '';
+    return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+  };
+  const badge = function (r) {
+    return '<span class="badge-' + String(r).toLowerCase() + '">' + esc(r) + '</span>';
+  };
+
+  async function load() {
+    if (!token) {
+      body.innerHTML = '<div class="empty">链接缺少参数，无法加载画像</div>';
+      return;
+    }
+    let d;
+    try {
+      const r = await fetch('/api/share/' + token);
+      const j = await r.json();
+      if (!j.ok) throw new Error(j.msg || '加载失败');
+      d = j.data;
+    } catch (e) {
+      body.innerHTML = '<div class="empty">' + esc(e.message) + '</div>';
+      return;
+    }
+    const sc = d.scores || {};
+    const dimNames = d.dim_names || {};
+    const order = ['academic', 'honor', 'practice', 'sci', 'quality'];
+    body.innerHTML =
+      '<div class="profile-head">' +
+      '<div style="flex:1">' +
+      '<p style="margin:0 0 8px;font-size:17px;font-weight:700;color:#0f2557">' + esc(d.name_masked) + '　' + (d.rating ? badge(d.rating) : '') + '</p>' +
+      '<p style="margin:4px 0;color:#33475b">专业：' + esc(d.major) + '　|　年级：' + esc(d.grade) + '</p>' +
+      '<p style="margin:4px 0;color:#33475b">综合得分：<b>' + esc(d.weighted !== null && d.weighted !== undefined ? d.weighted : '未生成') + '</b></p>' +
+      '<p style="margin:6px 0 2px;color:#33475b">技能：</p>' +
+      '<div class="tag-list">' + ((d.skills || []).map(function (s) { return '<span class="tag">' + esc(s) + '</span>'; }).join('') || '<span style="color:#8a99ab">无</span>') + '</div>' +
+      '</div>' +
+      '<div id="radar-box"></div>' +
+      '</div>' +
+      '<div class="card-title" style="margin-top:16px">五维能力得分</div>' +
+      '<div class="score-grid">' +
+      order.map(function (k) {
+        return '<div class="score-cell"><div class="sc-num">' + (sc[k] !== undefined && sc[k] !== null ? esc(sc[k]) : '—') + '</div><div class="sc-name">' + esc(dimNames[k] || k) + '</div></div>';
+      }).join('') +
+      '</div>' +
+      '<div style="margin-top:14px">' +
+      '<div class="card-title">获奖情况</div><div class="tag-list">' + ((d.awards || []).filter(function (a) { return a !== '无'; }).map(function (a) { return '<span class="tag">' + esc(a) + '</span>'; }).join('') || '<span style="color:#8a99ab">暂无</span>') + '</div>' +
+      '<div class="card-title" style="margin-top:12px">科创经历</div><div class="tag-list">' + ((d.sci_exp || []).filter(function (x) { return x !== '无'; }).map(function (x) { return '<span class="tag">' + esc(x) + '</span>'; }).join('') || '<span style="color:#8a99ab">暂无</span>') + '</div>' +
+      '</div>';
+    const el = document.getElementById('radar-box');
+    if (el && typeof echarts !== 'undefined') {
+      const chart = echarts.init(el);
+      chart.setOption({
+        tooltip: {},
+        radar: {
+          indicator: order.map(function (k) { return { name: dimNames[k] || k, max: 100 }; }),
+          radius: '65%',
+          splitArea: { areaStyle: { color: ['#f4f8fe', '#eef3fb'] } },
+          axisName: { color: '#33527f' },
+        },
+        series: [{
+          type: 'radar',
+          data: [{ value: order.map(function (k) { return sc[k] != null ? sc[k] : 0; }), name: '能力得分', areaStyle: { color: 'rgba(23,105,224,.22)' }, lineStyle: { color: '#1769e0', width: 2 }, itemStyle: { color: '#1769e0' } }],
+        }],
+      });
+    }
+  }
+  load();
+})();
+</script>
+</body>
+</html>

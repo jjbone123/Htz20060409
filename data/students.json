@@ -1,0 +1,1392 @@
+[
+  {
+    "id": "S001",
+    "name": "何文",
+    "student_no": "248905293",
+    "major": "电子商务",
+    "grade": "2023级",
+    "awards": [
+      "全国大学生英语竞赛C类二等奖"
+    ],
+    "sci_exp": [
+      "主持大创项目：基于深度学习的校园垃圾分类识别系统"
+    ],
+    "skills": [
+      "数据分析",
+      "运营",
+      "Excel",
+      "短视频运营",
+      "文案策划"
+    ],
+    "scores": {
+      "academic": 69,
+      "honor": 64,
+      "practice": 62,
+      "sci": 70,
+      "quality": 67
+    },
+    "source": "demo",
+    "created_at": "2026-10-28"
+  },
+  {
+    "id": "S002",
+    "name": "杨娜",
+    "student_no": "248905404",
+    "major": "计算机科学与技术",
+    "grade": "2023级",
+    "awards": [
+      "国家级大学生创新创业训练计划项目",
+      "全国大学生英语竞赛C类二等奖"
+    ],
+    "sci_exp": [],
+    "skills": [
+      "Linux",
+      "Python",
+      "Web开发",
+      "C++",
+      "数据结构与算法",
+      "数据库"
+    ],
+    "scores": {
+      "academic": 48,
+      "honor": 47,
+      "practice": 60,
+      "sci": 73,
+      "quality": 72
+    },
+    "source": "demo",
+    "created_at": "2026-10-28"
+  },
+  {
+    "id": "S003",
+    "name": "郭强",
+    "student_no": "245904939",
+    "major": "机械设计制造及其自动化",
+    "grade": "2023级",
+    "awards": [
+      "校级三好学生"
+    ],
+    "sci_exp": [],
+    "skills": [
+      "Python",
+      "机械设计",
+      "SolidWorks",
+      "3D打印",
+      "CAD"
+    ],
+    "scores": {
+      "academic": 67,
+      "honor": 72,
+      "practice": 77,
+      "sci": 64,
+      "quality": 77
+    },
+    "source": "demo",
+    "created_at": "2026-10-28"
+  },
+  {
+    "id": "S004",
+    "name": "赵梦瑶",
+    "student_no": "242903517",
+    "major": "视觉传达设计",
+    "grade": "2023级",
+    "awards": [
+      "蓝桥杯省赛二等奖",
+      "全国大学生数学建模竞赛省级二等奖"
+    ],
+    "sci_exp": [
+      "参与省级科研训练：光纤传感温度监测"
+    ],
+    "skills": [
+      "Illustrator",
+      "AE动效",
+      "Photoshop",
+      "平面设计",
+      "UI设计"
+    ],
+    "scores": {
+      "academic": 42,
+      "honor": 45,
+      "practice": 49,
+      "sci": 44,
+      "quality": 56
+    },
+    "source": "demo",
+    "created_at": "2026-10-28"
+  },
+  {
+    "id": "S005",
+    "name": "梁娟",
+    "student_no": "249805225",
+    "major": "视觉传达设计",
+    "grade": "2024级",
+    "awards": [],
+    "sci_exp": [
+      "参与大创项目：校园二手交易平台开发"
+    ],
+    "skills": [
+      "UI设计",
+      "AE动效",
+      "Photoshop",
+      "平面设计",
+      "Illustrator"
+    ],
+    "scores": {
+      "academic": 100,
+      "honor": 98,
+      "practice": 73,
+      "sci": 73,
+      "quality": 82
+    },
+    "source": "demo",
+    "created_at": "2026-10-28"
+  },
+  {
+    "id": "S006",
+    "name": "张志强",
+    "student_no": "249202052",
+    "major": "通信工程",
+    "grade": "2023级",
+    "awards": [
+      "全国大学生数学建模竞赛省级一等奖",
+      "校级三好学生",
+      "挑战杯课外学术科技作品竞赛省级三等奖"
+    ],
+    "sci_exp": [],
+    "skills": [
+      "信号处理",
+      "通信原理",
+      "嵌入式",
+      "电路设计",
+      "FPGA",
+      "C语言"
+    ],
+    "scores": {
+      "academic": 67,
+      "honor": 69,
+      "practice": 57,
+      "sci": 60,
+      "quality": 78
+    },
+    "source": "demo",
+    "created_at": "2026-10-28"
+  },
+  {
+    "id": "S007",
+    "name": "罗嘉豪",
+    "student_no": "241405652",
+    "major": "电子信息工程",
+    "grade": "2024级",
+    "awards": [],
+    "sci_exp": [
+      "参与挑战杯：社区养老服务平台"
+    ],
+    "skills": [
+      "PCB设计",
+      "Python",
+      "电路设计",
+      "信号处理",
+      "嵌入式",
+      "C语言"
+    ],
+    "scores": {
+      "academic": 87,
+      "honor": 84,
+      "practice": 96,
+      "sci": 96,
+      "quality": 76
+    },
+    "source": "demo",
+    "created_at": "2026-10-28"
+  },
+  {
+    "id": "S008",
+    "name": "吴玉兰",
+    "student_no": "243406666",
+    "major": "电子信息工程",
+    "grade": "2025级",
+    "awards": [],
+    "sci_exp": [],
+    "skills": [
+      "电路设计",
+      "嵌入式",
+      "信号处理",
+      "PCB设计",
+      "C语言",
+      "Python"
+    ],
+    "scores": {
+      "academic": 64,
+      "honor": 70,
+      "practice": 70,
+      "sci": 71,
+      "quality": 60
+    },
+    "source": "demo",
+    "created_at": "2026-10-28"
+  },
+  {
+    "id": "S009",
+    "name": "邓娜",
+    "student_no": "248105142",
+    "major": "数据科学与大数据技术",
+    "grade": "2025级",
+    "awards": [],
+    "sci_exp": [],
+    "skills": [
+      "机器学习",
+      "数据分析",
+      "SQL",
+      "Hadoop",
+      "数据可视化",
+      "Python"
+    ],
+    "scores": {
+      "academic": 70,
+      "honor": 63,
+      "practice": 69,
+      "sci": 63,
+      "quality": 62
+    },
+    "source": "demo",
+    "created_at": "2026-10-28"
+  },
+  {
+    "id": "S010",
+    "name": "杨磊",
+    "student_no": "248209149",
+    "major": "网络工程",
+    "grade": "2023级",
+    "awards": [
+      "全国大学生英语竞赛C类二等奖",
+      "全国大学生数学建模竞赛省级一等奖",
+      "全国大学生数学建模竞赛省级二等奖"
+    ],
+    "sci_exp": [
+      "无"
+    ],
+    "skills": [
+      "Linux",
+      "云计算",
+      "网络安全",
+      "Python",
+      "计算机网络",
+      "路由交换"
+    ],
+    "scores": {
+      "academic": 82,
+      "honor": 81,
+      "practice": 78,
+      "sci": 75,
+      "quality": 67
+    },
+    "source": "demo",
+    "created_at": "2026-10-28"
+  },
+  {
+    "id": "S011",
+    "name": "杨浩然",
+    "student_no": "245203874",
+    "major": "视觉传达设计",
+    "grade": "2023级",
+    "awards": [
+      "挑战杯课外学术科技作品竞赛省级三等奖",
+      "校级优秀学生干部",
+      "校级一等奖学金"
+    ],
+    "sci_exp": [
+      "参与省级科研训练：光纤传感温度监测"
+    ],
+    "skills": [
+      "AE动效",
+      "平面设计",
+      "UI设计",
+      "Photoshop",
+      "Illustrator"
+    ],
+    "scores": {
+      "academic": 72,
+      "honor": 67,
+      "practice": 73,
+      "sci": 69,
+      "quality": 68
+    },
+    "source": "demo",
+    "created_at": "2026-10-28"
+  },
+  {
+    "id": "S012",
+    "name": "高子涵",
+    "student_no": "245606741",
+    "major": "物联网工程",
+    "grade": "2024级",
+    "awards": [
+      "国家级大学生创新创业训练计划项目",
+      "中国国际大学生创新大赛省级银奖"
+    ],
+    "sci_exp": [],
+    "skills": [
+      "嵌入式",
+      "C语言",
+      "物联网平台",
+      "Python",
+      "传感器",
+      "无线通信"
+    ],
+    "scores": {
+      "academic": 68,
+      "honor": 59,
+      "practice": 72,
+      "sci": 70,
+      "quality": 70
+    },
+    "source": "demo",
+    "created_at": "2026-10-28"
+  },
+  {
+    "id": "S013",
+    "name": "马俊杰",
+    "student_no": "247304998",
+    "major": "软件工程",
+    "grade": "2024级",
+    "awards": [],
+    "sci_exp": [
+      "参与省级科研训练：光纤传感温度监测"
+    ],
+    "skills": [
+      "Python",
+      "Spring",
+      "C++",
+      "Git",
+      "数据库",
+      "前端开发"
+    ],
+    "scores": {
+      "academic": 43,
+      "honor": 57,
+      "practice": 62,
+      "sci": 45,
+      "quality": 60
+    },
+    "source": "demo",
+    "created_at": "2026-10-28"
+  },
+  {
+    "id": "S014",
+    "name": "曹敏",
+    "student_no": "246806362",
+    "major": "软件工程",
+    "grade": "2024级",
+    "awards": [
+      "蓝桥杯全国软件和信息技术专业人才大赛省赛一等奖",
+      "蓝桥杯省赛二等奖"
+    ],
+    "sci_exp": [
+      "参与挑战杯：社区养老服务平台"
+    ],
+    "skills": [
+      "Java",
+      "前端开发",
+      "软件测试",
+      "Git",
+      "数据库",
+      "Python"
+    ],
+    "scores": {
+      "academic": 45,
+      "honor": 47,
+      "practice": 42,
+      "sci": 61,
+      "quality": 60
+    },
+    "source": "demo",
+    "created_at": "2026-10-28"
+  },
+  {
+    "id": "S015",
+    "name": "李杰",
+    "student_no": "247101292",
+    "major": "人工智能",
+    "grade": "2024级",
+    "awards": [
+      "蓝桥杯全国软件和信息技术专业人才大赛省赛一等奖",
+      "中国国际大学生创新大赛省级银奖",
+      "全国大学生数学建模竞赛省级一等奖"
+    ],
+    "sci_exp": [
+      "参与互联网+大赛：AI简历解析工具"
+    ],
+    "skills": [
+      "Python",
+      "深度学习",
+      "计算机视觉",
+      "PyTorch",
+      "NLP",
+      "数据分析"
+    ],
+    "scores": {
+      "academic": 84,
+      "honor": 76,
+      "practice": 74,
+      "sci": 76,
+      "quality": 76
+    },
+    "source": "demo",
+    "created_at": "2026-10-28"
+  },
+  {
+    "id": "S016",
+    "name": "冯佳琪",
+    "student_no": "248503543",
+    "major": "视觉传达设计",
+    "grade": "2024级",
+    "awards": [
+      "全国大学生数学建模竞赛省级二等奖",
+      "TI杯大学生电子设计竞赛省级二等奖",
+      "校级二等奖学金"
+    ],
+    "sci_exp": [
+      "参与互联网+大赛：AI简历解析工具"
+    ],
+    "skills": [
+      "Illustrator",
+      "AE动效",
+      "平面设计",
+      "UI设计",
+      "Photoshop"
+    ],
+    "scores": {
+      "academic": 78,
+      "honor": 83,
+      "practice": 82,
+      "sci": 78,
+      "quality": 88
+    },
+    "source": "demo",
+    "created_at": "2026-10-28"
+  },
+  {
+    "id": "S017",
+    "name": "李思远",
+    "student_no": "244002203",
+    "major": "网络工程",
+    "grade": "2023级",
+    "awards": [],
+    "sci_exp": [
+      "参与互联网+大赛：AI简历解析工具"
+    ],
+    "skills": [
+      "云计算",
+      "Linux",
+      "Python",
+      "计算机网络",
+      "路由交换",
+      "网络安全"
+    ],
+    "scores": {
+      "academic": 58,
+      "honor": 60,
+      "practice": 77,
+      "sci": 61,
+      "quality": 54
+    },
+    "source": "demo",
+    "created_at": "2026-10-28"
+  },
+  {
+    "id": "S018",
+    "name": "罗娟",
+    "student_no": "245607961",
+    "major": "人工智能",
+    "grade": "2025级",
+    "awards": [
+      "校级一等奖学金"
+    ],
+    "sci_exp": [
+      "参与大创项目：校园二手交易平台开发"
+    ],
+    "skills": [
+      "深度学习",
+      "PyTorch",
+      "数据分析",
+      "计算机视觉",
+      "NLP",
+      "机器学习"
+    ],
+    "scores": {
+      "academic": 76,
+      "honor": 68,
+      "practice": 61,
+      "sci": 75,
+      "quality": 56
+    },
+    "source": "demo",
+    "created_at": "2026-10-28"
+  },
+  {
+    "id": "S019",
+    "name": "徐霞",
+    "student_no": "244703958",
+    "major": "物联网工程",
+    "grade": "2023级",
+    "awards": [
+      "全国大学生数学建模竞赛省级二等奖",
+      "国家级大学生创新创业训练计划项目",
+      "校级一等奖学金"
+    ],
+    "sci_exp": [],
+    "skills": [
+      "无线通信",
+      "Python",
+      "嵌入式",
+      "传感器",
+      "物联网平台",
+      "C语言"
+    ],
+    "scores": {
+      "academic": 98,
+      "honor": 100,
+      "practice": 100,
+      "sci": 94,
+      "quality": 94
+    },
+    "source": "demo",
+    "created_at": "2026-10-28"
+  },
+  {
+    "id": "S020",
+    "name": "罗涛",
+    "student_no": "249403887",
+    "major": "自动化",
+    "grade": "2024级",
+    "awards": [
+      "TI杯大学生电子设计竞赛省级二等奖"
+    ],
+    "sci_exp": [
+      "无"
+    ],
+    "skills": [
+      "Python",
+      "电路设计",
+      "嵌入式",
+      "C语言",
+      "自动控制",
+      "PLC"
+    ],
+    "scores": {
+      "academic": 82,
+      "honor": 76,
+      "practice": 67,
+      "sci": 95,
+      "quality": 78
+    },
+    "source": "demo",
+    "created_at": "2026-10-28"
+  },
+  {
+    "id": "S021",
+    "name": "孙嘉豪",
+    "student_no": "245406319",
+    "major": "物联网工程",
+    "grade": "2025级",
+    "awards": [
+      "全国大学生数学建模竞赛省级一等奖"
+    ],
+    "sci_exp": [],
+    "skills": [
+      "嵌入式",
+      "传感器",
+      "无线通信",
+      "Python",
+      "物联网平台",
+      "C语言"
+    ],
+    "scores": {
+      "academic": 69,
+      "honor": 54,
+      "practice": 55,
+      "sci": 54,
+      "quality": 79
+    },
+    "source": "demo",
+    "created_at": "2026-10-28"
+  },
+  {
+    "id": "S022",
+    "name": "郑超",
+    "student_no": "245801970",
+    "major": "电子商务",
+    "grade": "2024级",
+    "awards": [
+      "TI杯大学生电子设计竞赛省级二等奖",
+      "校级三好学生",
+      "蓝桥杯省赛二等奖"
+    ],
+    "sci_exp": [],
+    "skills": [
+      "短视频运营",
+      "运营",
+      "文案策划",
+      "Excel",
+      "数据分析"
+    ],
+    "scores": {
+      "academic": 100,
+      "honor": 76,
+      "practice": 76,
+      "sci": 91,
+      "quality": 91
+    },
+    "source": "demo",
+    "created_at": "2026-10-28"
+  },
+  {
+    "id": "S023",
+    "name": "宋桂英",
+    "student_no": "248302850",
+    "major": "自动化",
+    "grade": "2024级",
+    "awards": [
+      "校级一等奖学金"
+    ],
+    "sci_exp": [
+      "参与导师课题：基于LoRa的智慧大棚监测系统"
+    ],
+    "skills": [
+      "C语言",
+      "PLC",
+      "Python",
+      "电路设计",
+      "自动控制",
+      "嵌入式"
+    ],
+    "scores": {
+      "academic": 62,
+      "honor": 61,
+      "practice": 57,
+      "sci": 69,
+      "quality": 78
+    },
+    "source": "demo",
+    "created_at": "2026-10-28"
+  },
+  {
+    "id": "S024",
+    "name": "朱平",
+    "student_no": "241507724",
+    "major": "电子商务",
+    "grade": "2023级",
+    "awards": [
+      "校级一等奖学金",
+      "校级二等奖学金",
+      "全国大学生英语竞赛C类二等奖"
+    ],
+    "sci_exp": [
+      "参与互联网+大赛：AI简历解析工具"
+    ],
+    "skills": [
+      "运营",
+      "Excel",
+      "数据分析",
+      "短视频运营",
+      "文案策划"
+    ],
+    "scores": {
+      "academic": 91,
+      "honor": 96,
+      "practice": 80,
+      "sci": 100,
+      "quality": 96
+    },
+    "source": "demo",
+    "created_at": "2026-10-28"
+  },
+  {
+    "id": "S025",
+    "name": "罗雅琪",
+    "student_no": "243101356",
+    "major": "软件工程",
+    "grade": "2025级",
+    "awards": [
+      "国家级大学生创新创业训练计划项目"
+    ],
+    "sci_exp": [
+      "主持大创项目：基于深度学习的校园垃圾分类识别系统"
+    ],
+    "skills": [
+      "Git",
+      "数据库",
+      "软件测试",
+      "Spring",
+      "Java",
+      "前端开发"
+    ],
+    "scores": {
+      "academic": 60,
+      "honor": 48,
+      "practice": 48,
+      "sci": 52,
+      "quality": 38
+    },
+    "source": "demo",
+    "created_at": "2026-10-28"
+  },
+  {
+    "id": "S026",
+    "name": "谢思远",
+    "student_no": "241804419",
+    "major": "网络工程",
+    "grade": "2025级",
+    "awards": [
+      "校级一等奖学金",
+      "全国大学生数学建模竞赛省级一等奖"
+    ],
+    "sci_exp": [],
+    "skills": [
+      "云计算",
+      "Linux",
+      "路由交换",
+      "Python",
+      "网络安全",
+      "计算机网络"
+    ],
+    "scores": {
+      "academic": 70,
+      "honor": 66,
+      "practice": 55,
+      "sci": 67,
+      "quality": 62
+    },
+    "source": "demo",
+    "created_at": "2026-10-28"
+  },
+  {
+    "id": "S027",
+    "name": "曹明",
+    "student_no": "242802823",
+    "major": "机械设计制造及其自动化",
+    "grade": "2024级",
+    "awards": [
+      "校级优秀学生干部"
+    ],
+    "sci_exp": [],
+    "skills": [
+      "SolidWorks",
+      "CAD",
+      "机械设计",
+      "Python",
+      "3D打印"
+    ],
+    "scores": {
+      "academic": 62,
+      "honor": 74,
+      "practice": 72,
+      "sci": 64,
+      "quality": 79
+    },
+    "source": "demo",
+    "created_at": "2026-10-28"
+  },
+  {
+    "id": "S028",
+    "name": "林娟",
+    "student_no": "245302897",
+    "major": "自动化",
+    "grade": "2025级",
+    "awards": [],
+    "sci_exp": [
+      "无"
+    ],
+    "skills": [
+      "C语言",
+      "Python",
+      "电路设计",
+      "嵌入式",
+      "PLC",
+      "自动控制"
+    ],
+    "scores": {
+      "academic": 70,
+      "honor": 73,
+      "practice": 59,
+      "sci": 65,
+      "quality": 66
+    },
+    "source": "demo",
+    "created_at": "2026-10-28"
+  },
+  {
+    "id": "S029",
+    "name": "许明",
+    "student_no": "246907288",
+    "major": "视觉传达设计",
+    "grade": "2023级",
+    "awards": [
+      "挑战杯课外学术科技作品竞赛省级三等奖"
+    ],
+    "sci_exp": [
+      "参与省级科研训练：光纤传感温度监测"
+    ],
+    "skills": [
+      "UI设计",
+      "Photoshop",
+      "Illustrator",
+      "AE动效",
+      "平面设计"
+    ],
+    "scores": {
+      "academic": 73,
+      "honor": 97,
+      "practice": 93,
+      "sci": 88,
+      "quality": 94
+    },
+    "source": "demo",
+    "created_at": "2026-10-28"
+  },
+  {
+    "id": "S030",
+    "name": "冯俊杰",
+    "student_no": "244704437",
+    "major": "电子商务",
+    "grade": "2025级",
+    "awards": [
+      "国家级大学生创新创业训练计划项目",
+      "中国国际大学生创新大赛省级银奖",
+      "TI杯大学生电子设计竞赛省级二等奖"
+    ],
+    "sci_exp": [
+      "参与挑战杯：社区养老服务平台"
+    ],
+    "skills": [
+      "短视频运营",
+      "Excel",
+      "数据分析",
+      "运营",
+      "文案策划"
+    ],
+    "scores": {
+      "academic": 54,
+      "honor": 63,
+      "practice": 45,
+      "sci": 29,
+      "quality": 49
+    },
+    "source": "demo",
+    "created_at": "2026-10-28"
+  },
+  {
+    "id": "S031",
+    "name": "朱欣怡",
+    "student_no": "248306078",
+    "major": "人工智能",
+    "grade": "2024级",
+    "awards": [
+      "校级三好学生"
+    ],
+    "sci_exp": [
+      "参与大创项目：校园二手交易平台开发"
+    ],
+    "skills": [
+      "深度学习",
+      "机器学习",
+      "PyTorch",
+      "Python",
+      "NLP",
+      "计算机视觉"
+    ],
+    "scores": {
+      "academic": 61,
+      "honor": 73,
+      "practice": 71,
+      "sci": 75,
+      "quality": 64
+    },
+    "source": "demo",
+    "created_at": "2026-10-28"
+  },
+  {
+    "id": "S032",
+    "name": "王思远",
+    "student_no": "248602178",
+    "major": "自动化",
+    "grade": "2025级",
+    "awards": [
+      "蓝桥杯省赛二等奖"
+    ],
+    "sci_exp": [],
+    "skills": [
+      "Python",
+      "C语言",
+      "电路设计",
+      "嵌入式",
+      "PLC",
+      "自动控制"
+    ],
+    "scores": {
+      "academic": 100,
+      "honor": 77,
+      "practice": 92,
+      "sci": 79,
+      "quality": 81
+    },
+    "source": "demo",
+    "created_at": "2026-10-28"
+  },
+  {
+    "id": "S033",
+    "name": "刘磊",
+    "student_no": "244103808",
+    "major": "电子信息工程",
+    "grade": "2023级",
+    "awards": [
+      "无"
+    ],
+    "sci_exp": [],
+    "skills": [
+      "PCB设计",
+      "Python",
+      "信号处理",
+      "嵌入式",
+      "电路设计",
+      "C语言"
+    ],
+    "scores": {
+      "academic": 84,
+      "honor": 82,
+      "practice": 89,
+      "sci": 100,
+      "quality": 97
+    },
+    "source": "demo",
+    "created_at": "2026-10-28"
+  },
+  {
+    "id": "S034",
+    "name": "刘子涵",
+    "student_no": "242703310",
+    "major": "数据科学与大数据技术",
+    "grade": "2025级",
+    "awards": [
+      "校级优秀学生干部",
+      "挑战杯课外学术科技作品竞赛省级三等奖"
+    ],
+    "sci_exp": [],
+    "skills": [
+      "统计学",
+      "SQL",
+      "Python",
+      "数据分析",
+      "机器学习",
+      "Hadoop"
+    ],
+    "scores": {
+      "academic": 77,
+      "honor": 80,
+      "practice": 75,
+      "sci": 71,
+      "quality": 70
+    },
+    "source": "demo",
+    "created_at": "2026-10-28"
+  },
+  {
+    "id": "S035",
+    "name": "刘静",
+    "student_no": "246707655",
+    "major": "数据科学与大数据技术",
+    "grade": "2025级",
+    "awards": [],
+    "sci_exp": [],
+    "skills": [
+      "机器学习",
+      "Python",
+      "数据分析",
+      "Hadoop",
+      "SQL",
+      "数据可视化"
+    ],
+    "scores": {
+      "academic": 90,
+      "honor": 88,
+      "practice": 74,
+      "sci": 71,
+      "quality": 79
+    },
+    "source": "demo",
+    "created_at": "2026-10-28"
+  },
+  {
+    "id": "S036",
+    "name": "马志强",
+    "student_no": "244501732",
+    "major": "自动化",
+    "grade": "2024级",
+    "awards": [
+      "校级优秀学生干部",
+      "全国大学生数学建模竞赛省级二等奖",
+      "全国大学生数学建模竞赛省级一等奖"
+    ],
+    "sci_exp": [
+      "主持大创项目：基于深度学习的校园垃圾分类识别系统"
+    ],
+    "skills": [
+      "C语言",
+      "PLC",
+      "嵌入式",
+      "电路设计",
+      "自动控制",
+      "Python"
+    ],
+    "scores": {
+      "academic": 92,
+      "honor": 90,
+      "practice": 95,
+      "sci": 88,
+      "quality": 78
+    },
+    "source": "demo",
+    "created_at": "2026-10-28"
+  },
+  {
+    "id": "S037",
+    "name": "马芳",
+    "student_no": "246004035",
+    "major": "市场营销",
+    "grade": "2024级",
+    "awards": [
+      "全国大学生数学建模竞赛省级一等奖",
+      "全国大学生英语竞赛C类二等奖"
+    ],
+    "sci_exp": [],
+    "skills": [
+      "PPT",
+      "数据分析",
+      "文案策划",
+      "市场调研",
+      "商务沟通"
+    ],
+    "scores": {
+      "academic": 66,
+      "honor": 74,
+      "practice": 72,
+      "sci": 74,
+      "quality": 58
+    },
+    "source": "demo",
+    "created_at": "2026-10-28"
+  },
+  {
+    "id": "S038",
+    "name": "刘涛",
+    "student_no": "244407180",
+    "major": "人工智能",
+    "grade": "2025级",
+    "awards": [
+      "全国大学生英语竞赛C类二等奖",
+      "中国国际大学生创新大赛省级银奖"
+    ],
+    "sci_exp": [
+      "参与省级科研训练：光纤传感温度监测"
+    ],
+    "skills": [
+      "机器学习",
+      "数据分析",
+      "Python",
+      "NLP",
+      "PyTorch",
+      "计算机视觉"
+    ],
+    "scores": {
+      "academic": 78,
+      "honor": 58,
+      "practice": 56,
+      "sci": 70,
+      "quality": 74
+    },
+    "source": "demo",
+    "created_at": "2026-10-28"
+  },
+  {
+    "id": "S039",
+    "name": "胡敏",
+    "student_no": "243309485",
+    "major": "人工智能",
+    "grade": "2023级",
+    "awards": [
+      "挑战杯课外学术科技作品竞赛省级三等奖"
+    ],
+    "sci_exp": [],
+    "skills": [
+      "Python",
+      "机器学习",
+      "PyTorch",
+      "NLP",
+      "计算机视觉",
+      "数据分析"
+    ],
+    "scores": {
+      "academic": 90,
+      "honor": 100,
+      "practice": 84,
+      "sci": 91,
+      "quality": 92
+    },
+    "source": "demo",
+    "created_at": "2026-10-28"
+  },
+  {
+    "id": "S040",
+    "name": "谢娜",
+    "student_no": "247606551",
+    "major": "通信工程",
+    "grade": "2025级",
+    "awards": [
+      "校级优秀学生干部",
+      "全国大学生数学建模竞赛省级二等奖"
+    ],
+    "sci_exp": [],
+    "skills": [
+      "C语言",
+      "信号处理",
+      "电路设计",
+      "嵌入式",
+      "FPGA",
+      "Python"
+    ],
+    "scores": {
+      "academic": 67,
+      "honor": 75,
+      "practice": 78,
+      "sci": 63,
+      "quality": 67
+    },
+    "source": "demo",
+    "created_at": "2026-10-28"
+  },
+  {
+    "id": "S041",
+    "name": "彭霞",
+    "student_no": "249708173",
+    "major": "网络工程",
+    "grade": "2025级",
+    "awards": [
+      "无"
+    ],
+    "sci_exp": [
+      "主持大创项目：基于深度学习的校园垃圾分类识别系统"
+    ],
+    "skills": [
+      "计算机网络",
+      "Python",
+      "路由交换",
+      "云计算",
+      "Linux",
+      "网络安全"
+    ],
+    "scores": {
+      "academic": 55,
+      "honor": 67,
+      "practice": 77,
+      "sci": 57,
+      "quality": 51
+    },
+    "source": "demo",
+    "created_at": "2026-10-28"
+  },
+  {
+    "id": "S042",
+    "name": "徐浩然",
+    "student_no": "244604190",
+    "major": "机械设计制造及其自动化",
+    "grade": "2024级",
+    "awards": [],
+    "sci_exp": [
+      "参与导师课题：基于LoRa的智慧大棚监测系统"
+    ],
+    "skills": [
+      "机械设计",
+      "SolidWorks",
+      "3D打印",
+      "Python",
+      "CAD"
+    ],
+    "scores": {
+      "academic": 55,
+      "honor": 72,
+      "practice": 51,
+      "sci": 59,
+      "quality": 67
+    },
+    "source": "demo",
+    "created_at": "2026-10-28"
+  },
+  {
+    "id": "S043",
+    "name": "彭敏",
+    "student_no": "241803711",
+    "major": "计算机科学与技术",
+    "grade": "2024级",
+    "awards": [],
+    "sci_exp": [
+      "参与省级科研训练：光纤传感温度监测"
+    ],
+    "skills": [
+      "C++",
+      "Linux",
+      "Python",
+      "机器学习",
+      "Web开发",
+      "数据结构与算法"
+    ],
+    "scores": {
+      "academic": 97,
+      "honor": 88,
+      "practice": 93,
+      "sci": 70,
+      "quality": 100
+    },
+    "source": "demo",
+    "created_at": "2026-10-28"
+  },
+  {
+    "id": "S044",
+    "name": "彭勇",
+    "student_no": "246009890",
+    "major": "电子商务",
+    "grade": "2024级",
+    "awards": [
+      "校级优秀学生干部"
+    ],
+    "sci_exp": [
+      "无"
+    ],
+    "skills": [
+      "运营",
+      "文案策划",
+      "短视频运营",
+      "Excel",
+      "数据分析"
+    ],
+    "scores": {
+      "academic": 78,
+      "honor": 86,
+      "practice": 93,
+      "sci": 84,
+      "quality": 69
+    },
+    "source": "demo",
+    "created_at": "2026-10-28"
+  },
+  {
+    "id": "S045",
+    "name": "周娜",
+    "student_no": "249208626",
+    "major": "自动化",
+    "grade": "2023级",
+    "awards": [],
+    "sci_exp": [],
+    "skills": [
+      "嵌入式",
+      "自动控制",
+      "PLC",
+      "C语言",
+      "电路设计",
+      "Python"
+    ],
+    "scores": {
+      "academic": 61,
+      "honor": 43,
+      "practice": 48,
+      "sci": 53,
+      "quality": 46
+    },
+    "source": "demo",
+    "created_at": "2026-10-28"
+  },
+  {
+    "id": "S046",
+    "name": "朱敏",
+    "student_no": "249808925",
+    "major": "计算机科学与技术",
+    "grade": "2025级",
+    "awards": [
+      "无"
+    ],
+    "sci_exp": [],
+    "skills": [
+      "Linux",
+      "数据库",
+      "机器学习",
+      "C++",
+      "Java",
+      "Web开发"
+    ],
+    "scores": {
+      "academic": 56,
+      "honor": 48,
+      "practice": 47,
+      "sci": 38,
+      "quality": 36
+    },
+    "source": "demo",
+    "created_at": "2026-10-28"
+  },
+  {
+    "id": "S047",
+    "name": "邓瑞霖",
+    "student_no": "246008950",
+    "major": "软件工程",
+    "grade": "2023级",
+    "awards": [
+      "挑战杯课外学术科技作品竞赛省级三等奖"
+    ],
+    "sci_exp": [],
+    "skills": [
+      "Python",
+      "前端开发",
+      "Java",
+      "数据库",
+      "软件测试",
+      "C++"
+    ],
+    "scores": {
+      "academic": 80,
+      "honor": 87,
+      "practice": 90,
+      "sci": 92,
+      "quality": 84
+    },
+    "source": "demo",
+    "created_at": "2026-10-28"
+  },
+  {
+    "id": "S048",
+    "name": "梁超",
+    "student_no": "241606057",
+    "major": "数据科学与大数据技术",
+    "grade": "2024级",
+    "awards": [
+      "校级二等奖学金",
+      "挑战杯课外学术科技作品竞赛省级三等奖"
+    ],
+    "sci_exp": [],
+    "skills": [
+      "Python",
+      "数据分析",
+      "机器学习",
+      "统计学",
+      "Hadoop",
+      "SQL"
+    ],
+    "scores": {
+      "academic": 58,
+      "honor": 37,
+      "practice": 53,
+      "sci": 65,
+      "quality": 55
+    },
+    "source": "demo",
+    "created_at": "2026-10-28"
+  }
+]

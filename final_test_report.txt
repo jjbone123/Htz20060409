@@ -1,0 +1,18 @@
+﻿=== 1/5 test_phase1.py (10 tests) ===
+Ran 10 tests in 2.034s
+OK
+PHASE1_EXIT=0
+=== 2/5 test_phase2.py (4 tests) ===
+Ran 4 tests in 0.566s
+OK
+PHASE2_EXIT=0
+=== 3/5 test_phase2_ui.js (13 checks) ===
+PHASE2_UI_PASS
+UI_EXIT=0
+=== 4/5 test_phase3.py (8 tests) ===
+Ran 8 tests in 4.351s
+OK
+PHASE3_EXIT=0
+=== 5/5 e2e_test.js ===
+E2E_TEST_PASS
+E2E_EXIT=0

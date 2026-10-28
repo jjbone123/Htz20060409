@@ -1,0 +1,14 @@
+{
+  "dim_weights": {
+    "academic": 30,
+    "honor": 10,
+    "practice": 20,
+    "sci": 25,
+    "quality": 15
+  },
+  "deepseek": {
+    "api_key": "",
+    "base_url": "https://api.deepseek.com",
+    "model": "deepseek-chat"
+  }
+}

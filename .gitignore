@@ -1,0 +1,25 @@
+# Node 依赖与缓存
+node_modules/
+npm-debug.log*
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 测试临时数据目录（阶段测试用独立数据，不入库）
+.test_data_*/
+
+# 运行日志
+*.log
+
+# 运行数据（本机持久化数据由用户自行备份；含加密密钥，禁止入库）
+data/app.db
+data/app.db-wal
+data/app.db-shm
+data/secret.key
+export/
+
+# 系统临时文件
+Thumbs.db
+.DS_Store

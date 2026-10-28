@@ -1,0 +1,11 @@
+[
+  {
+    "id": "u_admin",
+    "username": "admin",
+    "salt": "0bf3d71012c26f12",
+    "password_hash": "f03c26e53445ef06dadbaf6c63d374c1005ca9b18f7942c23e7919b17e5a007d",
+    "role": "admin",
+    "name": "系统管理员",
+    "created_at": "2026-10-28 19:24"
+  }
+]
